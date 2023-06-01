@@ -1,0 +1,29 @@
+input[type=password]
+{
+    background-image: url('images/eye.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+}
+a:link,a:visited,a:active
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover, button:hover
+{
+    color: rgb(255,23,23);
+}
+#myTabContent1
+{
+    height: 35vh;
+    overflow-y: scroll;
+}
+.hide
+{
+    display: none;
+}
+.card:hover .hide
+{
+    display: block;
+}
